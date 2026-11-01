@@ -1,0 +1,156 @@
+[
+  {
+    "id": "агата",
+    "name": "Агата",
+    "style": "репетитор ⭐️",
+    "gender": "female",
+    "image": "./photos/агата.jpg"
+  },
+  {
+    "id": "алекс",
+    "name": "Алекс",
+    "style": "начальник ⭐️",
+    "gender": "male",
+    "image": "./photos/алекс.jpg"
+  },
+  {
+    "id": "артём",
+    "name": "Артём",
+    "style": "муж твоей подруги ⭐️",
+    "gender": "male",
+    "image": "./photos/артём.jpg"
+  },
+  {
+    "id": "дамиан",
+    "name": "Дамиан",
+    "style": "стриптизер",
+    "gender": "male",
+    "image": "./photos/дамиан.jpg"
+  },
+  {
+    "id": "девушка-смс",
+    "name": "Девушка по СМС",
+    "style": "общение в мессенджере",
+    "gender": "female",
+    "image": null
+  },
+  {
+    "id": "джулия",
+    "name": "Джулия",
+    "style": "подруга твоей девушки ⭐️",
+    "gender": "female",
+    "image": "./photos/джулия.jpg"
+  },
+  {
+    "id": "дима",
+    "name": "Дима",
+    "style": "сосед ⭐️",
+    "gender": "male",
+    "image": "./photos/дима.jpg"
+  },
+  {
+    "id": "ева",
+    "name": "Ева",
+    "style": "новая жена отца ⭐️",
+    "gender": "female",
+    "image": "./photos/ева.jpg"
+  },
+  {
+    "id": "кирилл",
+    "name": "Кирилл",
+    "style": "сводный брат ⭐️",
+    "gender": "male",
+    "image": "./photos/кирилл.jpg"
+  },
+  {
+    "id": "лео",
+    "name": "Лео",
+    "style": "дальнобойщик ⭐️",
+    "gender": "male",
+    "image": "./photos/лео.jpg"
+  },
+  {
+    "id": "лиса",
+    "name": "Лиса",
+    "style": "подруга сестры ⭐️",
+    "gender": "female",
+    "image": "./photos/лиса.jpg"
+  },
+  {
+    "id": "луна",
+    "name": "Луна",
+    "style": "незнакомка из бара ⭐️",
+    "gender": "female",
+    "image": "./photos/луна.jpg"
+  },
+  {
+    "id": "лёва",
+    "name": "Лёва",
+    "style": "массажист ⭐️",
+    "gender": "male",
+    "image": "./photos/лёва.jpg"
+  },
+  {
+    "id": "максим",
+    "name": "Максим",
+    "style": "тренер ⭐️",
+    "gender": "male",
+    "image": "./photos/максим.jpg"
+  },
+  {
+    "id": "марк",
+    "name": "Марк",
+    "style": "репетитор ⭐️",
+    "gender": "male",
+    "image": "./photos/марк.jpg"
+  },
+  {
+    "id": "мия",
+    "name": "Мия",
+    "style": "соседка ⭐️",
+    "gender": "female",
+    "image": "./photos/мия.jpg"
+  },
+  {
+    "id": "ника",
+    "name": "Ника",
+    "style": "тренер ⭐️",
+    "gender": "female",
+    "image": "./photos/ника.jpg"
+  },
+  {
+    "id": "никита",
+    "name": "Никита",
+    "style": "врач ⭐️",
+    "gender": "male",
+    "image": "./photos/никита.jpg"
+  },
+  {
+    "id": "парень-смс",
+    "name": "Парень по СМС",
+    "style": "общение в мессенджере",
+    "gender": "male",
+    "image": null
+  },
+  {
+    "id": "роксана",
+    "name": "Роксана",
+    "style": "начальница ⭐️",
+    "gender": "female",
+    "image": "./photos/роксана.jpg"
+  },
+  {
+    "id": "рокси",
+    "name": "Рокси",
+    "style": "сводная сестра ⭐️",
+    "gender": "female",
+    "image": "./photos/рокси.jpg"
+  },
+  {
+    "id": "стелла",
+    "name": "Стелла",
+    "style": "стриптизерша",
+    "gender": "female",
+    "image": "./photos/стелла.jpg"
+  }
+]

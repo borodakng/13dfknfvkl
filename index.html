@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#111019">
+    <title>Твой собеседник</title>
+    <link rel="stylesheet" href="./app.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div class="brand-mark" aria-hidden="true">♡</div>
+        <div>
+          <p class="eyebrow">ТВОЯ ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ</p>
+          <h1>Кто тебе сегодня ближе?</h1>
+        </div>
+        <span class="counter" id="counter" aria-live="polite"></span>
+      </header>
+
+      <section class="deck" aria-label="Карточки персонажей">
+        <div class="card-stack" id="card-stack">
+          <div class="loading-card">Подбираю собеседников…</div>
+        </div>
+      </section>
+
+      <p class="hint" id="hint">Листай карточки или выбирай сердцем</p>
+      <div class="actions" id="actions" hidden>
+        <button class="action action-skip" id="skip" type="button" aria-label="Пропустить персонажа">
+          <span aria-hidden="true">×</span>
+        </button>
+        <button class="action action-like" id="like" type="button" aria-label="Выбрать персонажа">
+          <span aria-hidden="true">♥</span>
+        </button>
+      </div>
+      <p class="footnote">Выбери персонажа — и продолжай общение прямо в чате</p>
+    </main>
+  </body>
+</html>
