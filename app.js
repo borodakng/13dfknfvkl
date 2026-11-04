@@ -50,7 +50,7 @@ function createCard(persona) {
   const name = document.createElement("h2");
   name.textContent = persona.name;
   const description = document.createElement("p");
-  description.textContent = "Новая история может начаться с одного сообщения";
+  description.textContent = persona.description || "Новая история может начаться с одного сообщения";
   const stats = document.createElement("div");
   stats.className = "card-stats";
   stats.setAttribute("aria-label", "Популярность персонажа");
