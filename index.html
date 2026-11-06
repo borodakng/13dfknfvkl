@@ -20,6 +20,12 @@
         <span class="counter" id="counter" aria-live="polite"></span>
       </header>
 
+      <nav class="catalog-tabs" aria-label="Фильтр персонажей">
+        <button class="catalog-tab is-active" type="button" data-view="all" aria-pressed="true">Все</button>
+        <button class="catalog-tab" type="button" data-view="favorites" aria-pressed="false">Избранное</button>
+        <button class="catalog-tab" type="button" data-view="recent" aria-pressed="false">Недавние</button>
+      </nav>
+
       <section class="deck" aria-label="Карточки персонажей">
         <div class="card-stack" id="card-stack">
           <div class="loading-card">Подбираю собеседников…</div>
@@ -32,8 +38,22 @@
           <span aria-hidden="true">✦</span>
           <span>Начать историю</span>
         </button>
+        <button class="action action-profile" id="show-profile" type="button">Подробнее</button>
       </div>
       <p class="footnote">Выбери собеседника и открой новую историю</p>
     </main>
+
+    <dialog class="profile-dialog" id="profile-dialog" aria-labelledby="profile-name">
+      <div class="profile-panel">
+        <button class="profile-close" id="close-profile" type="button" aria-label="Закрыть профиль">×</button>
+        <img class="profile-image" id="profile-image" alt="">
+        <div class="profile-placeholder" id="profile-placeholder" aria-hidden="true">♡</div>
+        <div class="profile-content">
+          <span class="tag" id="profile-style"></span>
+          <h2 id="profile-name"></h2>
+          <p id="profile-description"></p>
+        </div>
+      </div>
+    </dialog>
   </body>
 </html>
